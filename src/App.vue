@@ -1,20 +1,23 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import HyperlinkAsClass from './components/hyperlink-as-class.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    HyperlinkAsClass
   }
-}
+};
 </script>
+
+
+<template>
+  <div id="app">
+    <h1>Hyperlinks Gallore</h1>
+    <ul>
+      <hyperlink-as-class></hyperlink-as-class>
+    </ul>
+  </div>
+</template>
 
 <style>
 #app {
