@@ -1,0 +1,17 @@
+.hyperlink {
+  color: #0077CC;
+  cursor: default;
+  text-decoration: none;
+}
+  .hyperlink:not(a){
+    display: inline-block;
+  }
+
+  .hyperlink:not(.disabled):hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .disabled {
+    color: #939393;
+  }
