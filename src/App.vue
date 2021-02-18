@@ -14,7 +14,8 @@ export default {
   <div id="app">
     <h1>Hyperlinks Gallore</h1>
     <ul>
-      <hyperlink-as-class></hyperlink-as-class>
+        <hyperlink-as-class></hyperlink-as-class>
+        <hyperlink-as-class is-disabled></hyperlink-as-class>
     </ul>
   </div>
 </template>
