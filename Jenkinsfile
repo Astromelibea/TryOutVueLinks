@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-		    sh 'yarn serve'
-		sh 'echo "Hello World"
-                sh 'go version'
+		    sh 'yarn build'
+		    sh 'echo "Hello World"'
+            sh 'go version'
             }
         }
     }
